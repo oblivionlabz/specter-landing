@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import type { CSSProperties } from 'react'
 
-const PAY = process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK ?? '#'
+const PAY = 'https://buy.stripe.com/fZu9AU9Qm2VJ8JQ11EcfK02'
 
 function Logo({ size = 36 }: { size?: number }) {
   return (
