@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: #080810;
+  color: #f0f6fc;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #080810; }
+::-webkit-scrollbar-thumb { background: #00d4ff; border-radius: 3px; }
+
+@keyframes pulseGlow {
+  0%,100% { opacity:.5; transform:scale(1); }
+  50%     { opacity:.9; transform:scale(1.05); }
+}
+@keyframes slideUp {
+  from { opacity:0; transform:translateY(20px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+.glow-orb {
+  position:absolute; top:38%; left:50%;
+  transform:translate(-50%,-50%);
+  width:700px; height:700px; border-radius:50%;
+  background:radial-gradient(ellipse,rgba(0,212,255,.07) 0%,transparent 65%);
+  animation:pulseGlow 4s ease-in-out infinite;
+  pointer-events:none;
+}
