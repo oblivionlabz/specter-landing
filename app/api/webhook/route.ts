@@ -50,6 +50,7 @@ async function sendDeliveryEmail(to: string): Promise<void> {
   })
 
   const url = process.env.SPECTER_DOWNLOAD_URL ?? '#'
+  const pdfUrl = 'https://specter.oblivionlabz.net/specter-setup-guide-v1.pdf'
 
   const html = `<!DOCTYPE html>
 <html><head><meta charset="utf-8"></head>
@@ -66,7 +67,13 @@ async function sendDeliveryEmail(to: string): Promise<void> {
     <div style="text-align:center;margin-bottom:24px">
       <a href="${url}"
         style="display:inline-block;background:#00d4ff;color:#000;font-weight:700;padding:14px 36px;border-radius:6px;text-decoration:none">
-        Download SPECTER AI
+        Download SPECTER AI (ZIP)
+      </a>
+    </div>
+    <div style='text-align:center;margin-bottom:24px'>
+      <a href='${pdfUrl}'
+        style='display:inline-block;background:transparent;color:#00d4ff;font-weight:700;padding:12px 32px;border-radius:6px;text-decoration:none;border:1px solid rgba(0,212,255,.6)'>
+        Setup Guide PDF (50+ pages)
       </a>
     </div>
     <p style="color:#8b949e;font-size:.82rem;line-height:1.7;margin:0">
