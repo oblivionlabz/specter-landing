@@ -223,9 +223,9 @@ export default function Home() {
           gridTemplateColumns: 'repeat(auto-fit,minmax(280px,1fr))', gap: '20px' }}>
           <PCard icon="⛔" title="Your Data Is the Product"
             body="Every query to a cloud AI is logged and used to improve their models. Your code, strategies, and conversations — collected, analyzed, never forgotten." />
-          <PCard icon="0001F4B8" title="Endless Subscriptions"
+          <PCard icon="💸" title="Endless Subscriptions"
             body="$20/mo. $50/mo. $200/mo for API access. Stop paying and your AI vanishes. You are renting intelligence you will never own." />
-          <PCard icon="0001F916" title="Generic, Stateless Responses"
+          <PCard icon="🤖" title="Generic, Stateless Responses"
             body="Cloud AIs do not know you. Every session starts from zero. No memory of your preferences, your projects, your working style." />
         </div>
       </section>
@@ -283,23 +283,23 @@ export default function Home() {
         </div>
         <div style={{ display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit,minmax(270px,1fr))', gap: '20px' }}>
-          <FCard icon="0001F3A4" title="Voice Interface"
+          <FCard icon="🎤" title="Voice Interface"
             body="Wake word detection, Whisper STT for near-perfect transcription, and TTS with RVC voice cloning. Speak to your system in a voice you designed." />
-          <FCard icon="0001F441" title="Vision + Screen Capture"
+          <FCard icon="👁️" title="Vision + Screen Capture"
             body="Real-time screen capture with OCR. SPECTER reads your screen, analyzes your workflow, and responds with full environmental context." />
-          <FCard icon="0001F9E0" title="Personality Engine"
+          <FCard icon="🧠" title="Personality Engine"
             body="9 distinct AI personas with dynamic mood drift. Strategic confidence, relentless drive, pragmatic grit. You pick who shows up." />
-          <FCard icon="0001F5C4" title="Persistent Memory"
+          <FCard icon="🗄️" title="Persistent Memory"
             body="Hybrid knowledge graph plus vector store. Remembers your projects, preferences, and context across every session indefinitely." />
-          <FCard icon="0001F512" title="100% Local and Private"
+          <FCard icon="🔒" title="100% Local and Private"
             body="Zero telemetry. Zero cloud calls. Every byte stays on your machine. Your conversations and code never leave your hardware." />
-          <FCard icon="0001F433" title="One-Command Docker Deploy"
+          <FCard icon="🐳" title="One-Command Docker Deploy"
             body="Full Docker Compose stack. Spin up the entire system in one command. Reproducible, portable, and production-ready out of the box." />
           <FCard icon="&#9889;" title="Multi-Agent Orchestration"
             body="Parallel agent execution with task routing and hierarchical control. Delegate complex workflows to specialized sub-agents." />
-          <FCard icon="0001F4B0" title="Crypto Wallet Module"
+          <FCard icon="💰" title="Crypto Wallet Module"
             body="Built-in wallet system for web3 interactions. Sign transactions, check balances, and integrate crypto ops into your AI workflows." />
-          <FCard icon="0001F527" title="Fully Hackable"
+          <FCard icon="🔧" title="Fully Hackable"
             body="Clean Python codebase with documented APIs. Add tools, swap models, build custom personas, or fork the entire architecture." />
         </div>
       </section>
